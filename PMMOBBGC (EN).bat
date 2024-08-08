@@ -1,5 +1,10 @@
 @echo off
 setlocal enabledelayedexpansion
+:: Change console size (width=50, height=15)
+mode con: cols=70 lines=15
+:: Set color (e.g., light cyan background with black text)
+color 1F
+title PokeMMO Battle Background Change BLACK/White (US)
 
 :Inicio
 cls
@@ -69,10 +74,9 @@ goto Menu
 :author
 cls
 echo ***************************************************
-echo PokeMMO Battle Background Change BLACK/White (US) *
-echo josevdr95                                         *
-echo v1.0                                              *
-echo 2024                                              *
+echo *** PokeMMO Battle Background Changer v1.1 ***
+echo *** Author: josevdr95 ***
+echo *** Year: 2024 ***
 echo ***************************************************
 pause
 cls
