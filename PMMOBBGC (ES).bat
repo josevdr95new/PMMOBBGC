@@ -37,7 +37,7 @@ set /p option=Selecciona una opción (1-5):
 echo option: %option%
 
 :: Crear el archivo de registro
-set "LOG_FILE=patch_log.txt"
+:: set "LOG_FILE=patch_log.txt"
 echo [%date% %time%] Inicio de ejecución
 
 :: Comprobar la opción seleccionada
