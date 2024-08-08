@@ -29,10 +29,10 @@ echo 2. NightBeach  *
 echo 3. ParkBlack   *
 echo 4. SunsetBeach *
 echo ****************
-echo ----------
+echo -----------
 echo 5. Author -
-echo 6. Exit -
-echo ----------
+echo 6. Exit   -
+echo -----------
 set /p option=Select an option (1-5): 
 echo option: %option%
 
