@@ -3,9 +3,9 @@ setlocal enabledelayedexpansion
 
 :Inicio
 cls
-echo ***********************************************
+echo *****************************************************
 echo * PokeMMO Battle Background Change BLACK/White (US) *
-echo ***********************************************
+echo *****************************************************
 echo Enter the path of the ROM file to patch:
 set /p romPath=
 echo romPath: %romPath%
@@ -68,12 +68,12 @@ goto Menu
 
 :author
 cls
-echo *********************************************
+echo ***************************************************
 echo PokeMMO Battle Background Change BLACK/White (US) *
-echo josevdr95                                   *
-echo v1.0                                        *
-echo 2024                                        *
-echo *********************************************
+echo josevdr95                                         *
+echo v1.0                                              *
+echo 2024                                              *
+echo ***************************************************
 pause
 cls
 goto Menu

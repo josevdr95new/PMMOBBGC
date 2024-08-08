@@ -3,9 +3,9 @@ setlocal enabledelayedexpansion
 
 :Inicio
 cls
-echo ***********************************************
+echo *****************************************************
 echo * PokeMMO Battle Background Change BLACK/White (US) *
-echo ***********************************************
+echo *****************************************************
 echo Introduce la ruta del archivo ROM a parchear:
 set /p romPath=
 echo romPath: %romPath%
@@ -68,12 +68,12 @@ goto Menu
 
 :autor
 cls
-echo *********************************************
+echo ***************************************************
 echo PokeMMO Battle Background Change BLACK/White (US) *
-echo josevdr95                                   *
-echo v1.0                                        *
-echo 2024                                        *
-echo *********************************************
+echo josevdr95                                         *
+echo v1.0                                              *
+echo 2024                                              *
+echo ***************************************************
 pause
 cls
 goto Menu
